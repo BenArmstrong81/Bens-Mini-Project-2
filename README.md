@@ -24,3 +24,34 @@ The objective of this mini project was to build a webpage that will hold a colle
     ![On a tablet, the application displays two CSS code snippets per row.](./images/02-app-tablet.png)
 * On mobile devices, anything under 768px, the app should resemble the following image:
     ![On a mobile device, the application displays one CSS code snippet per row.](./images/03-app-mobile.png)# Bens-Mini-Project-2
+
+## Grading Requirements
+Nil
+
+## What I Learned
+Being the second week we expanded on HTML and went more in-depth in CSS.
+  
+
+## What Problems Did we Solve?
+I created a responsive landing page that incorporated flex boxes, pseudo coding, CSS variables using HTML and CSS. Also a created a professional README file from scratch. 
+  
+As this was only week number two and just starting out in coding with no prior background I found it difficult and chalenging.
+
+# Installation
+
+N/A
+
+# Usage
+To use and view this challenge please use this the following link to access the deployed website: "https://benarmstrong81.github.io/Ben-Armstrong-Activity-One-Mini-Project/" 
+
+The deployed webpage includes a functioning navigation bar, which will take you to my GitHub and also Portfolio that was completed in a challenge.
+The following image shows the web application's appearance:
+
+![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./Assets/images/Deployed%20Site.png)
+
+# Credits
+With special thanks to the UniSA Full Stack Web Development Class.
+
+# License
+
+Please refer to the LICENSE in the repo.# Ben-Armstrong-Activity-One-Mini-Project

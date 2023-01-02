@@ -1,0 +1,159 @@
+:root {
+    --background: #33393f;
+    --textandborders: #e0eae4;
+    --card-text: #e866ec;
+    --selectingtext: rgb(2, 157, 241);
+    }
+* {
+    background-color: var(--background);
+}
+
+::selection {
+    background-color: var(--selectingtext);
+    color: var(--background);
+}
+
+h1 {
+    font: bold;
+    font-size: 35px;
+    color: var(--card-text);
+}
+
+h2, h3 {
+    color: var(--card-text);
+    font: bold;
+    font-size: 25px;
+}
+
+p {
+    color: var(--card-text);
+}
+
+pre {
+    color: var(--textandborders);
+    user-select: all;
+}
+
+#first-paragraph {
+    color: var(--textandborders);
+}
+
+main {
+    width: 96%;
+    margin: 2rem auto;
+  }
+
+body {
+font-size: 18px;
+line-height: 1.5;
+background-color: var(--background);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.header {
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.flexbox-setup {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: row;
+margin-left: -1.5rem;
+margin-right: -1.5rem;
+}
+
+.card-main {
+    flex: 1 0 100%;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; */
+    margin-bottom: 15px;
+    padding: 15px;
+    }
+
+.card-header {
+    position: relative;
+    margin-top: -30px;
+    text-align: left;
+    border: var(--textandborders) 2px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 9px;
+}
+
+    .card-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 10px;
+    position: relative;
+    padding: 0.5rem 1rem;
+    /* outline is like border, but on the outside of the box instead of inside */
+    outline: 2px dashed var(--textandborders);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+    }
+
+.card-image pre {
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    color: var(--textandborders);
+     border-radius: 8px;
+     /* use linear-gradient() function to create a fading background  */
+     background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+    display: flex;
+    align-items: center;
+}
+
+/* set an outer and inner drop shadow on the card to create a glowing effect on hover */
+.card-main:hover,
+.card-main:hover .card-header {
+  box-shadow: inset 0px 0px 8px var(--selectingtext), 0 0 15px var(--selectingtext);
+}
+
+/* each card's code block grows to the height of the largest code block on the page, making each card even in height */
+.card-header .card-main {
+  flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width 768px ) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+  .card-main {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* select the last child to grow to full width if it has space to grow */
+  .card-main:last-child {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width 992px) {
+    .header {
+    width: 75%;
+  }
+
+  .card-main {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
