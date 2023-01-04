@@ -45,12 +45,19 @@ As this was only week number two and just starting out in coding with no prior b
 N/A
 
 # Usage
-To use and view this challenge please use this the following link to access the deployed website: "https://benarmstrong81.github.io/Ben-Armstrong-Activity-One-Mini-Project/" 
+To use and view this mini project please use this the following link to access the deployed website: "https://benarmstrong81.github.io/Bens-Mini-Project-2/" 
 
-The deployed webpage includes a functioning navigation bar, which will take you to my GitHub and also Portfolio that was completed in a challenge.
+The deployed webpage includes the abilty to click and select each code snippet.
 The following image shows the web application's appearance:
 
-![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./Assets/images/Deployed%20Site.png)
+![My Web Development Portfolio webpage includes a navigation bar, a professional head shot image, multiple links (placeholders at this stage) to projects completed within the UniSA Full Stack Web Development course, and working links to contact me - even download an updated resume.](./images/BensMiniProject2-FullScreen-resized.png)
+
+* At size 768px and above, the app should resemble the following image: <br/>
+    ![On a tablet, the application displays two CSS code snippets per row.](./images/BensMiniProject2-Screen%40992px-resized.png)
+
+* On mobile devices, anything under 768px, the app should resemble the following image: <br/>
+    ![On a mobile device, the application displays one CSS code snippet per row.](./images/BensMiniProject2-Screen%40768px.png)
+
 
 # Credits
 With special thanks to the UniSA Full Stack Web Development Class.
